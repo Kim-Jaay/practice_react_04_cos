@@ -1,0 +1,9 @@
+.Header {
+    .gnb {
+        display: flex; justify-content: space-between; line-height: 100px;
+
+        nav {
+            ul { display: flex; gap: 40px; }
+        }
+    }
+}

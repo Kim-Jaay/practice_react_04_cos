@@ -1,1 +1,5 @@
-.inner { width: 1420px; margin: 0 auto; }
+.TopBanner {background: black;
+    .inner {
+        ul { display: flex; gap: 30px; justify-content: flex-end; line-height: 40px; color: white; }
+    }
+}

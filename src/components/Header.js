@@ -2,10 +2,11 @@ import React from 'react'
 import TopBanner from './TopBanner'
 import { Link } from 'react-router-dom'
 import MainNav from './MainNav'
+import '../css/Header.scss'
 
 const Header = () => {
     return (
-        <header>
+        <header className='Header'>
             <TopBanner />
 
             <div className="inner">
