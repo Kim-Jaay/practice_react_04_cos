@@ -1,6 +1,7 @@
 import React from 'react'
 import TopBanner from './TopBanner'
-
+import { Link } from 'react-router-dom'
+import MainNav from './MainNav'
 
 const Header = () => {
     return (
@@ -9,7 +10,14 @@ const Header = () => {
 
             <div className="inner">
                 <div className="gnb">
-                    GNB
+                    <h1>
+                        <Link to='/'>
+                            <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" />
+                        </Link>
+                    </h1>
+                    <nav>
+                        <MainNav />
+                    </nav>
                 </div>
             </div>
         </header>

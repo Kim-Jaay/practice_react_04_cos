@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../css/TopBanner.scss'
 
 const TopBanner = () => {
 
@@ -12,7 +13,6 @@ const TopBanner = () => {
     return (
         <div className="TopBanner">
             <div className="inner">
-
                 <ul>
                     {
                         TOPMENU.map((it, idx) => {
