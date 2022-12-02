@@ -18,7 +18,7 @@ const TopBanner = () => {
                         TOPMENU.map((it, idx) => {
                             return (
                                 <li key={idx}>
-                                    {it.menu}
+                                    <Link to={it.link}>{it.menu}</Link>
                                 </li>
                             )
                         })
