@@ -7,10 +7,17 @@ import '../css/MainVisual.scss'
 
 
 const MainVisual = () => {
+    const settings = {
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade: true,
+
+    };
     return (
         <div className="MainVisual">
             <div className="inner">
-                <Slider>
+                <Slider {...settings}>
                     <div className="Slide">
                         <img src={process.env.PUBLIC_URL + '/assets/img/MainVisual02.jpg'} alt="" />
                         <div className="slogan">
