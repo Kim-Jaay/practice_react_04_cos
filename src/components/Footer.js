@@ -2,7 +2,12 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer className='Footer'>
+            <ul>
+                <li>고객서비스</li>
+                <li>매장찾기</li>
+            </ul>
+        </footer>
     )
 }
 
