@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/practice_react_04_cos/static/css/main.380f2f23.css",
-    "main.js": "/practice_react_04_cos/static/js/main.8d263115.js",
+    "main.css": "/practice_react_04_cos/static/css/main.bd139565.css",
+    "main.js": "/practice_react_04_cos/static/js/main.0d7de8ca.js",
     "static/media/slick.svg": "/practice_react_04_cos/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/practice_react_04_cos/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/practice_react_04_cos/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/practice_react_04_cos/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/practice_react_04_cos/index.html",
-    "main.380f2f23.css.map": "/practice_react_04_cos/static/css/main.380f2f23.css.map",
-    "main.8d263115.js.map": "/practice_react_04_cos/static/js/main.8d263115.js.map"
+    "main.bd139565.css.map": "/practice_react_04_cos/static/css/main.bd139565.css.map",
+    "main.0d7de8ca.js.map": "/practice_react_04_cos/static/js/main.0d7de8ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.380f2f23.css",
-    "static/js/main.8d263115.js"
+    "static/css/main.bd139565.css",
+    "static/js/main.0d7de8ca.js"
   ]
 }
