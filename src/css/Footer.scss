@@ -5,12 +5,12 @@
         li { line-height: 28px; }
         li a:hover{text-decoration: underline;}
     }
-    .top_con { border-top: 1px solid rgba($color: #000000, $alpha: 0.1); display: flex; padding: 50px 0; gap: 100px; }
+    .top_con { border-top: 1px solid rgba($color: #000000, $alpha: 0.1); display: flex; padding: 50px 0; gap: 150px; }
     .bot {
         background: #f1f1f1;
 
         .bot_con {
-            display: flex; padding: 50px 0; gap: 50px;
+            display: flex; padding: 40px 0; gap: 100px;
 
             h1 { opacity: 0.5; }
           
