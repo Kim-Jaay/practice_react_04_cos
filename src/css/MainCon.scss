@@ -1,2 +1,16 @@
 
-.main_con{display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;}
+.main_con {
+	display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+
+	li {
+		position: relative;
+
+		.des {
+			position: absolute; inset: 50% auto auto 50%; transform: translate(-50%,-50%); text-align: center; white-space: nowrap;
+
+			p { font-size: 18px; margin: 0 0 14px 0; }
+			h2 { font-size: 40px; margin: 0 0 40px 0; font-weight: 500; }
+            a:hover{text-decoration: underline;}
+		}
+	}
+}
