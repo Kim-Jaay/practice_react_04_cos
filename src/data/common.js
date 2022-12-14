@@ -1,8 +1,8 @@
 const NEW = [
     { id: 1, menu: '여성 신상품', link: '/new-arrival' },
-    { id: 2, menu: '여성 신상품 액세서리', link: '/new-acc' },
+    { id: 2, menu: '여성 액세서리', link: '/new-acc' },
     { id: 3, menu: '남성 신상품', link: '/new-arrival' },
-    { id: 4, menu: '여성 신상품', link: '/new-acc' },
+    { id: 4, menu: '남성 액세서리', link: '/new-acc' },
 ]
 
 
