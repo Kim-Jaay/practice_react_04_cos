@@ -16,7 +16,7 @@ const Header = () => {
                             <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" />
                         </Link>
                     </h1>
-                    <nav>
+                    <nav className='navgnb'>
                         <MainNav />
                     </nav>
                 </div>
