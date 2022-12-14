@@ -21,14 +21,14 @@ const MAN = [
 ]
 
 const GIFT = [
-    { id: 1, menu: '여성 기프트컬렉션', link: '' },
-    { id: 2, menu: '남성 기프트컬렉션', link: '' },
+    { id: 1, menu: '여성 기프트컬렉션', link: '/woman' },
+    { id: 2, menu: '남성 기프트컬렉션', link: '/man' },
 ]
 
 const MAGAZINE = [
-    { id: 1, menu: '최신', link: '' },
-    { id: 2, menu: '스토리', link: '' },
-    { id: 3, menu: '인터뷰', link: '' },
+    { id: 1, menu: '최신', link: '/new' },
+    { id: 2, menu: '스토리', link: '/story' },
+    { id: 3, menu: '브랜드', link: '/brand' },
 ]
 
 export { NEW, WOMAN, MAN, GIFT, MAGAZINE }
