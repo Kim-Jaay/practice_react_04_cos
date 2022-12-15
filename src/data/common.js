@@ -5,7 +5,6 @@ const NEW = [
     { id: 4, menu: '남성 액세서리', link: '/new-acc' },
 ]
 
-
 const WOMAN = [
     { id: 1, menu: '여성 세일', link: '/sale' },
     { id: 2, menu: '트렌딩 나우', link: '/trend' },
