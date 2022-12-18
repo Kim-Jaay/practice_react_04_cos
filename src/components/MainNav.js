@@ -34,20 +34,6 @@ const MainNav = () => {
                     }
                 </ul>
             </li>
-            {/* <li>
-                <a href="">남성</a>
-                <ul className='smenu'>
-                    {
-                        MAN.map((it, idx) => {
-                            return (
-                                <li key={idx}>
-                                    <Link to={it.link}>{it.menu}</Link>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-            </li> */}
             <li>
                 <a href="">기프트 컬렉션</a>
                 <ul className='smenu'>
