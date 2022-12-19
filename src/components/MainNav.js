@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { NEW, WOMAN, GIFT, MAGAZINE } from '../data/common'
+import { NEW, WOMAN, MAN, GIFT, MAGAZINE } from '../data/common'
 import { Link } from 'react-router-dom'
 
 const MainNav = () => {

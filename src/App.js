@@ -16,6 +16,7 @@ import New from './components/New'
 import Story from './components/Story'
 import Brand from './components/Brand'
 import Footer from './components/Footer'
+import NavBar from './components/NavBar'
 
 
 const App = () => {
