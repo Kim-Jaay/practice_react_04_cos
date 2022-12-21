@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 
 
 const MainNav = () => {
-
+    const [on, setOn] = useState(false);
 
 
     return (
         <>
-            <ul className='MainNav'>
+            <ul className={`MainNav ${on ? 'on' : ''}`}>
                 <li>
                     <a href="">신상품</a>
                     <ul className='smenu'>

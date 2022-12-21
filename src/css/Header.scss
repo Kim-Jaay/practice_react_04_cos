@@ -52,7 +52,9 @@
         h1 { width: 80px; }
         .navgnb {
           position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
-
+          & {
+            .on { left: 0; }
+          }
           ul {
             li { display: none; }
             .smenu { display: none; }
