@@ -1,6 +1,6 @@
 .Header {
 
-  .mbtn { display: none; z-index: 1; }
+  .xi-bars { display: none; z-index: 1; }
   .gnb {
     display: flex; justify-content: space-between; line-height: 100px;
 
@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 768px){
+@media(max-width:768px) {
 
 
   .Header {
@@ -39,21 +39,16 @@
     .inner {
       width: calc(100% - 40px);
 
-      .mbtn {
-        display: block; position: fixed; top: 64px; right: 20px; padding: 5px; background: #f1f1f1; border-radius: 5px; font-size: 20px;
-
-        & {
-          .on { left: 0; }
-        }
-      }
+      .xi-bars { display: block; position: fixed; top: 64px; right: 20px; padding: 5px; background: #f1f1f1; border-radius: 5px; font-size: 20px; }
       .gnb {
         display: flex; justify-content: space-between; line-height: 80px;
 
         h1 { width: 80px; }
         .navgnb {
-          position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
-          & {
-            .on { left: 0; }
+          .MainNav {
+            position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
+
+            &.on { left: 0; }
           }
           ul {
             li { display: none; }
