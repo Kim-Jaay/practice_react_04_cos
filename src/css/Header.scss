@@ -1,6 +1,6 @@
 .Header {
 
-  .mbtn { display: none; }
+  .mbtn { display: none; z-index: 1; }
   .gnb {
     display: flex; justify-content: space-between; line-height: 100px;
 
@@ -16,14 +16,14 @@
             .smenu { display: block; top: 80px; opacity: 1; visibility: visible; transition: 0.5s; }
           }
         }
-      }
-      .smenu {
-        display: none; position: absolute; top: 100px; left: 50%; width: 180px; text-align: center; transform: translateX(-50%); background: white; line-height: 50px; opacity: 0; z-index: 1; overflow: hidden;
+        .smenu {
+          display: none; position: absolute; top: 100px; left: 50%; width: 180px; text-align: center; transform: translateX(-50%); background: white; line-height: 50px; opacity: 0; z-index: 1; overflow: hidden;
 
-        li {
-          white-space: nowrap; color: #777;
+          li {
+            white-space: nowrap; color: #777;
 
-          a:hover { text-decoration: underline; color: black; }
+            a:hover { text-decoration: underline; color: black; }
+          }
         }
       }
     }
@@ -39,12 +39,20 @@
     .inner {
       width: calc(100% - 40px);
 
-      .mbtn { display: block; position: fixed; top: 64px; right: 20px; padding: 5px; background: #f1f1f1; border-radius: 5px; font-size: 20px; }
+      .mbtn {
+        display: block; position: fixed; top: 64px; right: 20px; padding: 5px; background: #f1f1f1; border-radius: 5px; font-size: 20px;
+
+        & {
+          .on { left: 0; }
+        }
+      }
       .gnb {
         display: flex; justify-content: space-between; line-height: 80px;
- h1{width: 80px;}
+
+        h1 { width: 80px; }
         .navgnb {
-           
+          position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
+
           ul {
             li { display: none; }
             .smenu { display: none; }
@@ -53,10 +61,7 @@
       }
     }
   }
-    
-    // .gnb {position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;}
-
-    // .gnb.on {left: 0;}
+ 
 
     // .gnb a {display: block;}
     // .gnb>ul {display: flex; flex-direction: column; gap: 0; color: #444}

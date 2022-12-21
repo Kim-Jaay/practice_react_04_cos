@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import { useLocation, useParams } from 'react-router-dom';
 import TopBanner from './TopBanner'
 import { Link } from 'react-router-dom'
 import MainNav from './MainNav'
 import '../css/Header.scss'
 
 const Header = () => {
+
+    const [on, setOn] = useState(false);
+
     return (
         <header className='Header'>
             <TopBanner />
@@ -19,7 +23,9 @@ const Header = () => {
                     <nav className='navgnb'>
                         <MainNav />
                     </nav>
-                    <i className="xi-bars mbtn"></i>
+                    <i className={`xi-bars ${on ? 'on' : ''} mbtn `}
+                        onClick={() => setOn(!on)}>
+                    </i>
                 </div>
             </div>
         </header>

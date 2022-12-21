@@ -5,10 +5,6 @@ import { Link } from 'react-router-dom'
 
 const MainNav = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
-    const toggleSide = () => {
-        setIsOpen(true);
-    };
 
 
     return (
