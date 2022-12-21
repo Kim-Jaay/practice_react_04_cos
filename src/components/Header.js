@@ -19,7 +19,7 @@ const Header = () => {
                     <nav className='navgnb'>
                         <MainNav />
                     </nav>
-                    <i class="xi-bars mbtn"></i>
+                    <i className="xi-bars mbtn"></i>
                 </div>
             </div>
         </header>
