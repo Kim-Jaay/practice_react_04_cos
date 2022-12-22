@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewAcc = () => {
     return (
-        <div>NewAcc</div>
+        <div><div className="inner">newacc</div></div>
     )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const New = () => {
     return (
-        <div>New</div>
+        <div><div className="inner">new</div></div>
     )
 }
 

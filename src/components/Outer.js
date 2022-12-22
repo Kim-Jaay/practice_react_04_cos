@@ -2,7 +2,7 @@ import React from 'react'
 
 const Outer = () => {
     return (
-        <div>Outer</div>
+        <div><div className="inner">outer</div></div>
     )
 }
 

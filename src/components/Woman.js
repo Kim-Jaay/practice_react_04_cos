@@ -2,7 +2,7 @@ import React from 'react'
 
 const Woman = () => {
     return (
-        <div>Woman</div>
+        <div><div className="inner">woman</div></div>
     )
 }
 

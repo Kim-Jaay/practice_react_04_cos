@@ -2,7 +2,7 @@ import React from 'react'
 
 const Story = () => {
     return (
-        <div>Story</div>
+        <div><div className="inner">story</div></div>
     )
 }
 

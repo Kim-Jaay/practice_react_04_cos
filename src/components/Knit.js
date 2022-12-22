@@ -2,7 +2,7 @@ import React from 'react'
 
 const Knit = () => {
     return (
-        <div>Knit</div>
+        <div><div className="inner">knit</div></div>
     )
 }
 
