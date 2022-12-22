@@ -13,9 +13,11 @@ const MainCon = () => {
                 <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon04.png'} alt="" /></Link></li>
                 <li>
                     <div className="des">
+
                         <p>SUSTAINABILITY AT COS</p>
                         <h2>Beyond Neutral</h2>
-                        <Link to='/story'>Brand Stroy <i className='xi-angle-right-thin'></i></Link>
+                        <Link to='/story'>Brand Stroy
+                            <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" /> <i className='xi-angle-right-thin'></i></Link>
                     </div>
                 </li>
                 <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon06.png'} alt="" /></Link></li>

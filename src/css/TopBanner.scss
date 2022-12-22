@@ -1,5 +1,16 @@
-.TopBanner {background: black;
+.TopBanner {
+    background: black;
+
     .inner {
         ul { display: flex; gap: 20px; justify-content: flex-end; line-height: 40px; color: white; font-size: 14px; }
+    }
+}
+@media(max-width:768px) {
+    .TopBanner {
+        background: black;
+    
+        .inner {
+            ul { display: flex; gap: 20px; justify-content: flex-end; line-height: 30px; color: white; font-size: 14px; }
+        }
     }
 }
