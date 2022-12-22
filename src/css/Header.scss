@@ -1,6 +1,6 @@
 .Header {
 
-  .xi-bars { display: none; z-index: 1; }
+  .icon { display: none; }
   .gnb {
     display: flex; justify-content: space-between; line-height: 100px;
 
@@ -35,10 +35,10 @@
   .Header {
     width: 100%; line-height: 100px; z-index: 1;
 
+    .icon { display: block; position: absolute; top: 40px; right: 4px; }
     .inner {
       width: calc(100% - 32px);
 
-      .xi-bars { display: block; position: absolute; top: 54px; right: 16px; padding: 5px; background: #f1f1f1; border-radius: 5px; font-size: 20px; }
       .gnb { display: flex; justify-content: space-between; line-height: 80px; }
       h1 { width: 80px; }
       .navgnb {

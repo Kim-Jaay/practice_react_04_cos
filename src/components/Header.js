@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import TopBanner from './TopBanner'
+import Hamburger from 'hamburger-react'
 import { Link } from 'react-router-dom'
 import '../css/Header.scss'
 import { NEW, WOMAN, GIFT, MAGAZINE } from '../data/common'
@@ -9,9 +10,21 @@ const Header = () => {
 
     const [on, setOn] = useState(false);
 
+
+
     return (
         <header className='Header'>
             <TopBanner />
+            <div className="icon">
+                <Hamburger
+                    toggled={on}
+                    toggle={setOn}
+                    size={20}
+                    className={`${on ? 'on' : ''}`}
+                    onClick={() => setOn(!on)}
+                />
+
+            </div>
 
             <div className="inner">
                 <div className="gnb">
@@ -20,9 +33,10 @@ const Header = () => {
                             <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" />
                         </Link>
                     </h1>
-                    <i className={`xi-bars  ${on ? 'on' : ''}`}
+                    {/* <i className={`xi-bars icon  ${on ? 'on' : ''}`}
                         onClick={() => setOn(!on)}
-                    ></i>
+                    ></i> */}
+
                     <nav className='navgnb'>
                         <ul className={`MainNav ${on ? 'on' : ''}`}>
                             <li>
