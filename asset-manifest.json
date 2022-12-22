@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/practice_react_04_cos/static/css/main.3ab5e3b7.css",
-    "main.js": "/practice_react_04_cos/static/js/main.ea5ccdc9.js",
+    "main.css": "/practice_react_04_cos/static/css/main.790343b6.css",
+    "main.js": "/practice_react_04_cos/static/js/main.a77fba9a.js",
     "static/media/slick.svg": "/practice_react_04_cos/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/practice_react_04_cos/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/practice_react_04_cos/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/practice_react_04_cos/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/practice_react_04_cos/index.html",
-    "main.3ab5e3b7.css.map": "/practice_react_04_cos/static/css/main.3ab5e3b7.css.map",
-    "main.ea5ccdc9.js.map": "/practice_react_04_cos/static/js/main.ea5ccdc9.js.map"
+    "main.790343b6.css.map": "/practice_react_04_cos/static/css/main.790343b6.css.map",
+    "main.a77fba9a.js.map": "/practice_react_04_cos/static/js/main.a77fba9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab5e3b7.css",
-    "static/js/main.ea5ccdc9.js"
+    "static/css/main.790343b6.css",
+    "static/js/main.a77fba9a.js"
   ]
 }
