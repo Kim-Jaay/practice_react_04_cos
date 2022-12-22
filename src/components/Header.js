@@ -26,7 +26,7 @@ const Header = () => {
                     <nav className='navgnb'>
                         <ul className={`MainNav ${on ? 'on' : ''}`}>
                             <li>
-                                <a href="/"  >신상품</a>
+                                <a href="/practice_react_04_cos"  >신상품</a>
                                 <ul className='smenu'>
                                     {
                                         NEW.map((it, idx) => {
@@ -40,7 +40,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="/">여성</a>
+                                <a href="/practice_react_04_cos">여성</a>
                                 <ul className='smenu'>
                                     {
                                         WOMAN.map((it, idx) => {
@@ -54,7 +54,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="/">기프트 컬렉션</a>
+                                <a href="/practice_react_04_cos">기프트 컬렉션</a>
                                 <ul className='smenu'>
                                     {
                                         GIFT.map((it, idx) => {
@@ -68,7 +68,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="/">매거진</a>
+                                <a href="/practice_react_04_cos">매거진</a>
                                 <ul className='smenu'>
                                     {
                                         MAGAZINE.map((it, idx) => {

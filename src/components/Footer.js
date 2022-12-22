@@ -28,11 +28,11 @@ const Footer = () => {
                             <li> <Link to='/'>고객문의</Link></li>
                         </ul>
                         <ul>
-                            <li><a href="/">Kakaotalk</a></li>
-                            <li><a href="/">Instagram</a></li>
-                            <li><a href="/">Facebook</a></li>
-                            <li><a href="/">Pinterest</a></li>
-                            <li><a href="/">Spotify</a></li>
+                            <li><a href="/practice_react_04_cos">Kakaotalk</a></li>
+                            <li><a href="/practice_react_04_cos">Instagram</a></li>
+                            <li><a href="/practice_react_04_cos">Facebook</a></li>
+                            <li><a href="/practice_react_04_cos">Pinterest</a></li>
+                            <li><a href="/practice_react_04_cos">Spotify</a></li>
                         </ul>
                     </div>
                 </div>
