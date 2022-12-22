@@ -25,15 +25,15 @@
     position: relative;
 
     .inner {
-      img { height: calc(100vh - 120px); }
+      img { height: 400px;padding-bottom: 5px; }
       .Slide {
 
 
         .slogan {
 
           white-space: nowrap;
-          span { display: inline-block; font-size: 20px; margin: 0 0 15px 0; }
-          h2 { font-size: 40px; }
+          span { display: inline-block; font-size: 14px; margin: 0 0 15px 0; }
+          h2 { font-size: 28px; }
         }
       }
     }
