@@ -44,17 +44,19 @@
       .navgnb {
         a { display: block; }
         .MainNav {
-          display: flex; flex-direction: column; gap: 0; color: red; position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
+          display: flex; flex-direction: column; gap: 0; color: #333; font-weight: 700; position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
 
           &.on { left: 0; }
           >li {
             border-bottom: 1px solid #ddd;
 
-            .smenu { display: block; position: static; opacity: 1; visibility: visible; top: 150px; left: 50%; width: auto; text-align: center; transform: translateX(0); z-index: 99; text-align: left; line-height: 40px;
+            .smenu {
+              display: block; position: static; opacity: 1; visibility: visible; top: 150px; left: 50%; width: auto; text-align: center; transform: translateX(0); z-index: 99; text-align: left; line-height: 35px;
+
               li {
-                white-space: nowrap; color: #777;
-    
-                a:hover { text-decoration: none;}
+                white-space: nowrap; font-weight: 400;
+
+                a:hover { text-decoration: none; color: #777; }
               }
             }
           }
