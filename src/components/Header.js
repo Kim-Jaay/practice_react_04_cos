@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import React, { useState } from 'react';
 import TopBanner from './TopBanner'
 import { Link } from 'react-router-dom'
 import '../css/Header.scss'
