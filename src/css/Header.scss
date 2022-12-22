@@ -48,10 +48,10 @@
 
           &.on { left: 0; }
           >li {
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #ddd; padding: 10px 20px;
 
             .smenu {
-              display: block; position: static; opacity: 1; visibility: visible; top: 150px; left: 50%; width: auto; text-align: center; transform: translateX(0); z-index: 99; text-align: left; line-height: 35px;
+              display: block; position: static; opacity: 1; width: auto; transform: translateX(0); z-index: 99; text-align: left; line-height: 35px;
 
               li {
                 white-space: nowrap; font-weight: 400;
