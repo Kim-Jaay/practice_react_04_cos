@@ -43,25 +43,20 @@
       h1 { width: 80px; }
       .navgnb {
         a { display: block; }
-        ul {
-          display: flex; flex-direction: column; gap: 0; color: #444;
-
-          li {
-            position: relative; border-bottom: 1px solid #ddd;
-
-            &:hover {
-              .smenu { top: 120px; opacity: 1; visibility: visible; transition: none; }
-            }
-            .smenu { display: none; position: static; top: 150px; left: 50%; width: auto; text-align: center; transform: translateX(0); background: rgba(0,0,0,0.3); line-height: 40px; opacity: 1; visibility: visible; transition: none; }
-          }
-        }
         .MainNav {
-          position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
+          display: flex; flex-direction: column; gap: 0; color: red; position: fixed; top: 0; left: -100%; width: calc(100% - 90px); height: 100vh; background: white; border-right: 1px solid #ddd; padding: 100px 15px 0 15px; line-height: 40px; z-index: 1; transition: 0.5s;
 
           &.on { left: 0; }
-          ul {
-            li { display: none; }
-            .smenu { display: none; }
+          >li {
+            border-bottom: 1px solid #ddd;
+
+            .smenu { display: block; position: static; opacity: 1; visibility: visible; top: 150px; left: 50%; width: auto; text-align: center; transform: translateX(0); z-index: 99; text-align: left; line-height: 40px;
+              li {
+                white-space: nowrap; color: #777;
+    
+                a:hover { text-decoration: none;}
+              }
+            }
           }
         }
       }

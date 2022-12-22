@@ -21,16 +21,19 @@ const Header = () => {
                             <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" />
                         </Link>
                     </h1>
+                    <i className={`xi-bars  ${on ? 'on' : ''}`}
+                        onClick={() => setOn(!on)}
+                    ></i>
                     <nav className='navgnb'>
                         <ul className={`MainNav ${on ? 'on' : ''}`}>
                             <li>
-                                <a href="">신상품</a>
+                                <a href=""  >신상품</a>
                                 <ul className='smenu'>
                                     {
                                         NEW.map((it, idx) => {
                                             return (
                                                 <li key={idx}>
-                                                    <Link to={it.link}>{it.menu}</Link>
+                                                    <Link to={it.link} >{it.menu}</Link>
                                                 </li>
                                             )
                                         })
@@ -81,9 +84,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </nav>
-                    <i className={`xi-bars  ${on ? 'on' : ''}`}
-                        onClick={() => setOn(!on)}
-                    ></i>
+
                 </div>
             </div>
         </header>
