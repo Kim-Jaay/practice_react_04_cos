@@ -23,7 +23,6 @@ const Header = () => {
                     className={`${on ? 'on' : ''}`}
                     onClick={() => setOn(!on)}
                 />
-
             </div>
 
             <div className="inner">
@@ -33,10 +32,6 @@ const Header = () => {
                             <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" />
                         </Link>
                     </h1>
-                    {/* <i className={`xi-bars icon  ${on ? 'on' : ''}`}
-                        onClick={() => setOn(!on)}
-                    ></i> */}
-
                     <nav className='navgnb'>
                         <ul className={`MainNav ${on ? 'on' : ''}`}>
                             <li>
