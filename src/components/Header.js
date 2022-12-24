@@ -32,6 +32,7 @@ const Header = () => {
                             <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" />
                         </Link>
                     </h1>
+
                     <nav className='navgnb'>
                         <ul className={`MainNav ${on ? 'on' : ''}`}>
                             <li>
@@ -42,6 +43,7 @@ const Header = () => {
                                             return (
                                                 <li key={idx}>
                                                     <Link to={it.link} >{it.menu}</Link>
+                                                    {/* <a href={/practice_react_04_cos/`${it.link}`}>{it.menu}</a > */}
                                                 </li>
                                             )
                                         })
@@ -94,8 +96,8 @@ const Header = () => {
                     </nav>
 
                 </div>
-            </div>
-        </header>
+            </div >
+        </header >
     )
 }
 
