@@ -43,7 +43,7 @@ const Header = () => {
                                             return (
                                                 <li key={idx}>
                                                     <Link to={it.link} >{it.menu}</Link>
-                                                    {/* <a href={/practice_react_04_cos/`${it.link}`}>{it.menu}</a > */}
+
                                                 </li>
                                             )
                                         })
