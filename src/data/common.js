@@ -22,4 +22,4 @@ const MAGAZINE = [
     { id: 2, menu: '브랜드', link: '/brand' },
 ]
 
-export { NEW, WOMAN, MAN, GIFT, MAGAZINE }
+export { NEW, WOMAN, GIFT, MAGAZINE }
