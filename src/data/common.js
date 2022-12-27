@@ -8,10 +8,10 @@ const WOMAN = [
     { id: 2, menu: '니트웨어', link: '/knit' },
 ]
 
-const MAN = [
-    { id: 1, menu: '트렌딩 나우', link: '/trend' },
-    { id: 2, menu: '니트웨어', link: '/knit' },
-]
+// const MAN = [
+//     { id: 1, menu: '트렌딩 나우', link: '/trend' },
+//     { id: 2, menu: '니트웨어', link: '/knit' },
+// ]
 
 const GIFT = [
     { id: 1, menu: '기프트컬렉션', link: '/woman' },
