@@ -3,7 +3,7 @@
 	p { white-space: pre; }
 	img { height: 100%; }
 	.flex { display: flex; justify-content: space-between; }
-	.inner_k { width: 1530px; margin: 0 auto; padding-top: 150px; }
+	.inner_k { width: 1530px; margin: 0 auto; }
 	.sec01 {
 
 		.des {
@@ -20,9 +20,5 @@
 		img { height: 1000px; }
 		img:nth-child(2) { position: absolute; right: 0; top: 300px; width: 35%; height: auto; }
 	}
-	.sec03 {
-		padding: 200px 0; width: 1220px; margin: 0 auto; gap: 20px;
-
-		
-	}
+	.sec03 { padding: 200px 0; width: 1220px; margin: 0 auto; gap: 20px; }
 }
