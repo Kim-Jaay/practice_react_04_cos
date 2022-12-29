@@ -10,6 +10,7 @@ const Trend = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
+        pauseOnHover: false,
     };
 
 
@@ -38,9 +39,7 @@ const Trend = () => {
                         <img src={process.env.PUBLIC_URL + '/assets/img/jean_03.png'} alt="" />
                         <img src={process.env.PUBLIC_URL + '/assets/img/jean_04.png'} alt="" />
                         <img src={process.env.PUBLIC_URL + '/assets/img/jean_05.png'} alt="" />
-                        <img src={process.env.PUBLIC_URL + '/assets/img/jean_03.png'} alt="" />
-                        <img src={process.env.PUBLIC_URL + '/assets/img/jean_04.png'} alt="" />
-                        <img src={process.env.PUBLIC_URL + '/assets/img/jean_05.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/jean_06.png'} alt="" />
                     </Slider>
                 </div>
             </div>
