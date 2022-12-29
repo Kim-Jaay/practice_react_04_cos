@@ -8,8 +8,9 @@ const Knit = () => {
             <div className="inner_k">
                 <div className="sec01 flex">
                     <div className='des'>
-                        <h2>헤어리 니트<br />
-                            울 알파카 스웨터
+                        <h2>
+                            Hairy Knit <br />
+                            Wool Alpaca Sweater
                         </h2>
                         <span>175,000</span>
                         <p>시즌에 구애받지 않는 클래식 COS 니트웨어.<br />
