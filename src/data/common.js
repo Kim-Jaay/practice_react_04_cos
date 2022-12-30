@@ -18,8 +18,7 @@ const GIFT = [
 ]
 
 const MAGAZINE = [
-    { id: 1, menu: '스토리', link: '/story' },
-    { id: 2, menu: '브랜드', link: '/brand' },
+    { id: 1, menu: '브랜드', link: '/brand' },
 ]
 
 export { NEW, WOMAN, GIFT, MAGAZINE }
