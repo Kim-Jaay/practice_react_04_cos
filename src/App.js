@@ -31,12 +31,8 @@ const App = () => {
           <Route path='/new-acc' element={<NewAcc />} />
           <Route path='/sale' element={<Sale />} />
           <Route path='/trend' element={<Trend />} />
-          <Route path='/outer' element={<Outer />} />
           <Route path='/knit' element={<Knit />} />
           <Route path='/woman' element={<Woman />} />
-          <Route path='/man' element={<Man />} />
-          <Route path='/new' element={<New />} />
-          <Route path='/story' element={<Story />} />
           <Route path='/brand' element={<Brand />} />
         </Routes>
 

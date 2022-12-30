@@ -7,10 +7,10 @@ const MainCon = () => {
 
         <div className="inner">
             <ul className='main_con'>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon01.png'} alt="" /></Link></li>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon02.png'} alt="" /></Link></li>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon03.png'} alt="" /></Link></li>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon04.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon01.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon02.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon03.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon04.png'} alt="" /></Link></li>
                 <li>
                     <div className="des">
 
@@ -20,10 +20,10 @@ const MainCon = () => {
                             <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" /> <i className='xi-angle-right-thin'></i></Link>
                     </div>
                 </li>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon06.png'} alt="" /></Link></li>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon07.png'} alt="" /></Link></li>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon08.png'} alt="" /></Link></li>
-                <li> <Link to='/new'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon09.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon06.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon07.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon08.png'} alt="" /></Link></li>
+                <li> <Link to='/new-arrival'><img src={process.env.PUBLIC_URL + '/assets/img/MainCon09.png'} alt="" /></Link></li>
             </ul>
         </div>
     )
