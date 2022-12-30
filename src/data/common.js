@@ -14,7 +14,7 @@ const WOMAN = [
 // ]
 
 const GIFT = [
-    { id: 1, menu: '기프트컬렉션', link: '/woman' },
+    { id: 1, menu: '컬렉션', link: '/woman' },
 ]
 
 const MAGAZINE = [
