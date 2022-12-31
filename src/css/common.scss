@@ -1,6 +1,7 @@
 .Wrapper { overflow-x: hidden; overflow-y: hidden !important; }
 .inner { width: calc(100% - 80px); margin: 0 auto; }
 .inner_k { width: 1530px; margin: 0 auto; }
+
 .flex { display: flex; justify-content: space-between; }
 @media(max-width:768px) {
     .inner { width: calc(100% - 32px); }

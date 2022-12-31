@@ -16,7 +16,7 @@ const MainCon = () => {
 
                         <p>SUSTAINABILITY AT COS</p>
                         <h2>Beyond Neutral</h2>
-                        <Link to='/story'>Brand Stroy
+                        <Link to='/brand'>Brand Stroy
                             <img src={process.env.PUBLIC_URL + '/assets/img/cos_logo.svg'} alt="" /> <i className='xi-angle-right-thin'></i></Link>
                     </div>
                 </li>
