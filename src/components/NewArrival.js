@@ -3,7 +3,7 @@ import '../css/NewArrival.scss'
 const NewArrival = () => {
     return (
         <div className='NewArrival'>
-            <div className="inner_k">
+            <div className="inner">
                 <h2>New Arrival</h2>
                 <ul className='new'>
                     <li>
