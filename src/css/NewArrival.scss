@@ -12,3 +12,19 @@
         }
     }
 }
+@media(max-width:768px) {
+    .NewArrival, .NewAcc{
+        .inner {
+            h2 { margin-top: 50px; font-size: 24px; }
+            .new {
+              gap: 5px; padding: 50px 0;
+    
+                li {
+                    img { margin: 0 0 10px 0; }
+                    h3 { margin: 0 0 5px 0; }
+                    P{margin: 0 0 20px 0;}
+                }
+            }
+        }
+    }
+}
